@@ -14,15 +14,6 @@ Enfoque: Mostrar de forma simple cómo heredar, sobrescribir métodos, usar poli
 - Python: 3.10 o superior.
 - Dependencias: No requiere librerías externas.
 
-## Instalación Y Ejecución
-1. Clonar:  
-   `git clone https://github.com/CristianJelves/proyecto_2.git`
-2. Entrar a la carpeta:  
-   `cd proyecto_2`
-3. Ejecutar el script:  
-   - Windows: `python herencia.py`  
-   - Linux/macOS: `python3 herencia.py`
-
 ## Diseño De Clases (Resumen)
 - `Usuario`: Clase base con `nombre`, `correo` y método `presentarse()`.
 - `Administrador(Usuario)`: Agrega `permisos` (lista), sobrescribe `presentarse()` y define operaciones de administración (p. ej., `agregar_permiso`, `eliminar_usuario`).
